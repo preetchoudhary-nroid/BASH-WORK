@@ -6,5 +6,5 @@ while true; do
   echo "[$TIMESTAMP] Current Users:" >> "$LOG_FILE"
   who >> "$LOG_FILE"
   echo "----------------" >> "$LOG_FILE"
-  sleep 5
+  sleep 300 #MADE IT 300 IF YOU WANT YOU CAN CHANGE IT TO FIVE
 done
